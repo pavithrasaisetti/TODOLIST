@@ -1,0 +1,117 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://tse4.mm.bing.net/th/id/OIP.VZfcPaBnfrGZ7r7qrkWhaAHaEK?rs=1&pid=ImgDetMain');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.todo-app {
+  background-color: #2d1e1e;
+  color: #00ff77;
+  padding: 2rem;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.todo-app h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.todo-app input,
+.todo-app textarea,
+.todo-app select,
+.todo-app button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.todo-app button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.todo-app button:hover {
+  background-color: #218838;
+}
+
+.background-image {
+  flex: 1;
+  background: url('https://tse4.mm.bing.net/th/id/OIP.VZfcPaBnfrGZ7r7qrkWhaAHaEK?rs=1&pid=ImgDetMain') no-repeat center center;
+  background-size: cover;
+}
+
+.task-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.task-item {
+  background-color: #3e2e2e;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-info {
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.task-info.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+  margin-left: 10px;
+}
+
+.task-actions button {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.task-actions button:hover {
+  color: #ff6666;
+}
+
+a {
+  color: #a173f8;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
