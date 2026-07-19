@@ -38,7 +38,7 @@ Includes options to:
 - Delete tasks
 - Mark tasks as completed (checkbox)
 - Visual priority indicators (color lines)
-
+- URL : https://pavithrasaisetti.github.io/TODOLIST/
 ---
 
 ## 🛠️ Tech Stack
